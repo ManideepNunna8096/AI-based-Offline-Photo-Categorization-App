@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Flask temporary files
+instance/
+*.log
+
+# Flutter / Dart
+**/build/
+.dart_tool/
+.pub/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+GeneratedPluginRegistrant.dart
+
+# Android
+*.iml
+.android/
+local.properties
+
+# iOS
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Runner.xcodeproj/project.xcworkspace
+
+# VS Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Model files (optional — avoid pushing large files)
+*.h5
+*.tflite
+*.pt

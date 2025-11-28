@@ -1,0 +1,42 @@
+name: photo_categorizer_app
+description: An AI-based offline photo categorizer Flutter app that connects to a local Flask backend.
+publish_to: "none" # local development only
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📸 Image selection
+  image_picker: ^1.1.2
+
+  # 🌐 For HTTP communication with Flask backend
+  http: ^1.2.2
+
+  # 🧭 For managing file paths
+  path: ^1.9.0
+
+  # 🔐 For runtime permissions (storage, photos, etc.)
+  permission_handler: ^11.3.1
+
+  # 📶 Optional: Detect device Wi-Fi network / IP
+  network_info_plus: ^6.1.0
+
+  # 🧱 Optional: Better UI grid layouts (for showing categorized images)
+  flutter_staggered_grid_view: ^0.7.0
+
+  # 🪟 Core icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
