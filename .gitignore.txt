@@ -1,0 +1,107 @@
+```gitignore
+# Flutter
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+########################################
+# FLUTTER / DART
+########################################
+# Flutter-specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+pubspec.lock
+
+# Generated plugin registrant
+**/GeneratedPluginRegistrant.*
+
+# iOS / macOS
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+macos/Flutter/Flutter.podspec
+macos/Pods/
+macos/Runner.xcworkspace/
+macos/Runner.xcodeproj/project.xcworkspace/
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# Web
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+
+########################################
+# PYTHON BACKEND
+########################################
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code debug/launch configs
+.vscode/
+
+########################################
+# PYTHON PACKAGES / ARTIFACTS
+########################################
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+.python-version
+
+########################################
+# BACKEND TEMP FOLDERS
+########################################
+backend/uploads/
+backend/temp/
+backend/__pycache__/
+*.log
+
+########################################
+# SYSTEM / EDITOR FILES
+########################################
+# macOS Finder
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux temporary files
+*~
+
+# IDE files
+.idea/
+*.iml
+
+########################################
+# LOG FILES
+########################################
+*.log
+logs/
+
